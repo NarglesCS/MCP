@@ -1,0 +1,10 @@
+[project]
+name = "weather"
+version = "0.1.0"
+description = "This is the MCP base app provided by the Anthropic tutorial"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.10.0",
+]
